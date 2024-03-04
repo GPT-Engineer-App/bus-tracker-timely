@@ -10,7 +10,12 @@ const Index = () => {
   const busSchedules = [
     { id: 1, name: "Route 22", arrival: "10:15 AM", departure: "10:30 AM", duration: "15 mins", destination: "Downtown" },
     { id: 2, name: "Route 5", arrival: "11:00 AM", departure: "11:20 AM", duration: "20 mins", destination: "Uptown" },
-    // ... more bus routes
+    { id: 3, name: "Route 10", arrival: "09:30 AM", departure: "09:50 AM", duration: "20 mins", destination: "Eastside" },
+    { id: 4, name: "Route 11", arrival: "09:45 AM", departure: "10:05 AM", duration: "20 mins", destination: "Westside" },
+    { id: 5, name: "Route 12", arrival: "10:00 AM", departure: "10:20 AM", duration: "20 mins", destination: "Southside" },
+    { id: 6, name: "Route 13", arrival: "10:15 AM", departure: "10:35 AM", duration: "20 mins", destination: "Northside" },
+
+    { id: 7, name: "Route 14", arrival: "TBD", departure: "TBD", duration: "TBD", destination: "TBD" },
   ];
 
   // Search handler for buses (dummy implementation)
